@@ -281,17 +281,33 @@ padding-bottom: 80px;
 }
 .main-section-card-list:not(:last-child){
     margin-right: 20px;
-    width: 433px;
-    height: 629px;
+ 
 }
 .main-section-card-list {
     padding: 0;
     margin: 0;
+    width: 433px;
 }
 .card-image{
-
+width: 433px;
+height: 500px;
+object-fit: cover;
 }
 .card-theme {
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+color: #333333;
 }
 .card-text {
+    width: 377px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #333333;
 }
