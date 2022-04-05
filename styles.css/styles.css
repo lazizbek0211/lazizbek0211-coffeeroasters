@@ -102,6 +102,12 @@ img{
     text-transform: uppercase;
     color: #333333;
 }
+.nav-links:hover{
+    opacity: 0.8;
+}
+.nav-links:active{
+    opacity: 0.6;
+}
 .nav-list-item:not(:last-child){
     padding-right: 40px;
 }
@@ -124,7 +130,7 @@ img{
     color: #000000;
     padding: 0;
     margin: 0;
-    width: 447px;
+    max-width: 447px;
 }
 .site-hero-text {
     padding: 0;
@@ -138,6 +144,9 @@ img{
     padding-top: 24px;
     padding-bottom: 50px;
     width: 464px;
+}
+.about-us{
+    max-width: 372px;
 }
 .button {
     text-decoration: none;
@@ -483,6 +492,12 @@ text-transform: uppercase;
 color: #333333;
 text-decoration: none;
 }
+.footer-nav-list-links:hover{
+    opacity: 0.8;
+}
+.footer-nav-list-links:active{
+    opacity: 0.6;
+}
 .social-list {
     list-style: none;
     display: flex;
@@ -492,4 +507,192 @@ text-decoration: none;
 }
 .social-list-item:not(:last-child){
     padding-right: 30px;
+}
+.social-list-item:hover{
+    opacity: 0.8;
+}
+
+/* about-us */
+
+.main-about-coffee {
+}
+.main-wrapper-about-us {
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f2;
+}
+.coffee-cup-img {
+    object-fit: contain;
+    margin-right: 185px;
+    margin-left: 165px;
+    padding-top: 160px;
+    padding-bottom: 216px;
+}
+.making-coffee {
+    max-width: 626px;
+}
+.commitment {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+color: #000000;
+padding-top: 160px;
+}
+.about-making-coffee {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #333333;
+padding-bottom: 200px;
+}
+
+.about-us-section {
+   padding-top: 160px;
+   padding-bottom: 20px;
+    
+}
+.about-us-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-image:url(../img/about-us-main.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center bottom;
+}
+
+.about-us-content {
+    max-width: 639px;
+   padding-left: 143px;
+   padding-right: 38px;
+   
+}
+.quality {
+    padding-top: 100px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 59px;
+color: #FFFFFF;
+margin: 0;
+padding-bottom: 24px;
+}
+.context {
+    padding-bottom: 118px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+opacity: 0.8;
+margin: 0;
+width: 639px;
+}
+.about-us-girl-img{
+    width: 550px;
+    height: 500px;
+    display: inline-block;
+    margin-top: -90px;
+    margin-right: 30px;
+    object-fit: cover;
+}
+
+
+.about-us-green-section {
+    
+}
+.about-us-green-section-wrapper {
+    background-image:url(../img/green-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+.about-us-green-section-theme {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 59px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 50px;
+}
+.about-us-green-section-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.about-us-green-section-list-item {
+    width: 433px;
+    background-color:  #F8F8F2;
+    margin-bottom: 100px;
+   padding: 0;
+
+
+}
+.about-us-green-section-list-item:not(:last-child){
+    padding-right: 20px;
+}
+.about-us-green-section-content {
+    max-width: 433px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+.about-us-green-section-content-theme {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+color: #333333;
+padding: 0;
+margin: 0;
+padding-bottom: 10px;
+
+}
+.about-us-green-section-content-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #333333;
+padding: 0;
+margin: 0;
+}
+
+.uk{
+    background-image: url(../img/uk.png);
+    background-repeat: no-repeat;
+    background-position: 274px 45px;
+    padding-top: 140px;
+}
+.australia{
+    background-image: url(../img/canada.png);
+    background-repeat: no-repeat;
+    background-position:258px 45px;
+    padding-top: 187px;
+}
+.canada{
+    background-image: url(../img/australia.png);
+    background-repeat: no-repeat;
+    background-position: 258px 45px;
+    padding-top: 187px;
+}
+.about-uk-text{
+    width: 141px;
+}
+.about-canada-text{
+width: 178px;
+}
+.about-australia-text{
+width: 156px;
 }
